@@ -17,7 +17,7 @@ GLuint p;
 
 guint generationRate = 1;
 
-gboolean increasing = TRUE;
+gboolean spam = FALSE;
 
 void display(void)
 {
@@ -43,7 +43,7 @@ void display(void)
 	glDisable(GL_TEXTURE_2D);
 	
 	glUseProgram(0);
-	glBegin(GL_QUADS);
+	glBegin(GL_TRIANGLES);
 
 	if (g_random_int_range(0, 100) == 3)
 	{
@@ -56,38 +56,39 @@ void display(void)
 		glVertex2f(x, y);
 		glVertex2f(x, y + size);
 		glVertex2f(x + size, y + size);
-		glVertex2f(x + size, y);
 	}
-	else if (g_random_int_range(0, 2000) == 3)
+	if (spam)
 	{
-		for (i = 0; i < 45; i++)
+		for (i = 0; i < 30; i++)
 		{
-			gint size = g_random_int_range(0, 100)*g_random_double_range(0, 1);
+			gint size = g_random_int_range(0, 500)*g_random_double_range(0, 1);
 			int x = random() % WIDTH;
 			int y = random() % HEIGHT;
-			
-			
+		
+		
 			glColor4f(0.0, 0.0,1.0, 1.0);
 			glVertex2f(x, y);
 			glVertex2f(x, y + size);
 			glVertex2f(x + size, y + size);
-			glVertex2f(x + size, y);
 		}
+		spam = FALSE;
 	}
-	glEnd();
+
+
+glEnd();
 	
 
-	glReadBuffer(GL_BACK);
-	glCopyTexSubImage2D(GL_TEXTURE_2D,
-						0,
-						0,
-						0,
-						0,
-						0,
-						WIDTH,
-						HEIGHT);
+glReadBuffer(GL_BACK);
+glCopyTexSubImage2D(GL_TEXTURE_2D,
+					0,
+					0,
+					0,
+					0,
+					0,
+					WIDTH,
+					HEIGHT);
 
-	glutSwapBuffers();
+glutSwapBuffers();
 
 	
 
@@ -145,8 +146,8 @@ void init (void)
 
 	glBindTexture( GL_TEXTURE_2D, texture );
 
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	
@@ -154,6 +155,15 @@ void init (void)
 				 GL_RGB, GL_UNSIGNED_BYTE, data);
 	
 	load_shader();
+}
+
+void
+keyboard (unsigned char key, int code, int bla)
+{
+	if (key == 'a')
+	{
+		spam = TRUE;
+	}
 }
 
 int main(int argc, char ** argv)
@@ -169,6 +179,7 @@ int main(int argc, char ** argv)
 
     glutReshapeFunc (reshape);
 	glutDisplayFunc(display);
+	glutKeyboardFunc(keyboard);
 	glutTimerFunc(20, timer, 0);
 
     glutMainLoop();

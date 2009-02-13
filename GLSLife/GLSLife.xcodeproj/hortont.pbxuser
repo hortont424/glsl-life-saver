@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 526}}";
+			sepNavSelRange = "{64, 0}";
+			sepNavVisRange = "{0, 126}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = 358377640F32C13200E148BC /* GLSLife */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8D1107260486CEB800E47090 /* GLSLife */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* GLSLife */,
+		);
+		codeSenseManager = 3583777C0F32C13300E148BC /* Code sense */;
+		executables = (
+			358377640F32C13200E148BC /* GLSLife */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					827,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					939,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					899,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 255069148;
+			PBXWorkspaceStateSaveDate = 255069148;
+		};
+		perUserProjectItems = {
+			355C5ECA0F33F28E00C3F11E /* PBXTextBookmark */ = 355C5ECA0F33F28E00C3F11E /* PBXTextBookmark */;
+			355C5ECD0F33F28E00C3F11E /* PlistBookmark */ = 355C5ECD0F33F28E00C3F11E /* PlistBookmark */;
+			355C5ED60F33F28E00C3F11E /* PlistBookmark */ = 355C5ED60F33F28E00C3F11E /* PlistBookmark */;
+			355C5ED70F33F28E00C3F11E /* PBXTextBookmark */ = 355C5ED70F33F28E00C3F11E /* PBXTextBookmark */;
+			355C5EFB0F33F2F500C3F11E /* PlistBookmark */ = 355C5EFB0F33F2F500C3F11E /* PlistBookmark */;
+			355C5EFC0F33F2F500C3F11E /* PBXTextBookmark */ = 355C5EFC0F33F2F500C3F11E /* PBXTextBookmark */;
+			355C5EFD0F33F2F500C3F11E /* PBXTextBookmark */ = 355C5EFD0F33F2F500C3F11E /* PBXTextBookmark */;
+			358377920F32C22B00E148BC /* PBXTextBookmark */ = 358377920F32C22B00E148BC /* PBXTextBookmark */;
+			358377930F32C22B00E148BC /* PBXTextBookmark */ = 358377930F32C22B00E148BC /* PBXTextBookmark */;
+			358377BD0F32C3E200E148BC /* PBXTextBookmark */ = 358377BD0F32C3E200E148BC /* PBXTextBookmark */;
+			3583781B0F32CACF00E148BC /* PBXTextBookmark */ = 3583781B0F32CACF00E148BC /* PBXTextBookmark */;
+			35C1D2B30F33F34A0053BA7C /* PBXTextBookmark */ = 35C1D2B30F33F34A0053BA7C /* PBXTextBookmark */;
+			35C1D31B0F33F7B40053BA7C /* PBXTextBookmark */ = 35C1D31B0F33F7B40053BA7C /* PBXTextBookmark */;
+			35C1D3F80F3409550053BA7C /* PBXTextBookmark */ = 35C1D3F80F3409550053BA7C /* PBXTextBookmark */;
+			35C1D3F90F3409550053BA7C /* PlistBookmark */ = 35C1D3F90F3409550053BA7C /* PlistBookmark */;
+			35C1D40D0F340B220053BA7C /* PBXTextBookmark */ = 35C1D40D0F340B220053BA7C /* PBXTextBookmark */;
+			35C9B6CA0F33E6E2000752EC /* PBXTextBookmark */ = 35C9B6CA0F33E6E2000752EC /* PBXTextBookmark */;
+			35C9B6DC0F33E79B000752EC /* PBXTextBookmark */ = 35C9B6DC0F33E79B000752EC /* PBXTextBookmark */;
+			35C9B6E00F33E79B000752EC /* PBXTextBookmark */ = 35C9B6E00F33E79B000752EC /* PBXTextBookmark */;
+			35C9B72C0F33EB26000752EC /* PBXTextBookmark */ = 35C9B72C0F33EB26000752EC /* PBXTextBookmark */;
+			35C9B7390F33EB26000752EC /* PBXTextBookmark */ = 35C9B7390F33EB26000752EC /* PBXTextBookmark */;
+			35C9B7F50F33F125000752EC /* PBXTextBookmark */ = 35C9B7F50F33F125000752EC /* PBXTextBookmark */;
+			35CE15520F340BF7009B0CDA /* PBXTextBookmark */ = 35CE15520F340BF7009B0CDA /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3583777B0F32C13300E148BC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 526}}";
+			sepNavSelRange = "{147, 0}";
+			sepNavVisRange = "{0, 252}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* GLSLife_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1324, 298}}";
+			sepNavSelRange = "{145, 0}";
+			sepNavVisRange = "{0, 145}";
+		};
+	};
+	355C5ECA0F33F28E00C3F11E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2CC7A9608350C5A00EB6054 /* GLSLifeSaverView.h */;
+		name = "GLSLifeSaverView.h: 9";
+		rLen = 0;
+		rLoc = 164;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 0;
+	};
+	355C5ECD0F33F28E00C3F11E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = C2CC7A7108350BBD00EB6054 /* GLSLife saver-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/hortont/Desktop/GLSLife/GLSLife saver-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	355C5ED60F33F28E00C3F11E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/hortont/Desktop/GLSLife/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	355C5ED70F33F28E00C3F11E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 126;
+		vrLoc = 0;
+	};
+	355C5EFB0F33F2F500C3F11E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/hortont/Desktop/GLSLife/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	355C5EFC0F33F2F500C3F11E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 3";
+		rLen = 0;
+		rLoc = 64;
+		rType = 0;
+		vrLen = 126;
+		vrLoc = 0;
+	};
+	355C5EFD0F33F2F500C3F11E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 9";
+		rLen = 0;
+		rLoc = 147;
+		rType = 0;
+		vrLen = 252;
+		vrLoc = 0;
+	};
+	358377640F32C13200E148BC /* GLSLife */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GLSLife;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	3583777B0F32C13300E148BC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	3583777C0F32C13300E148BC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	358377920F32C22B00E148BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2CC78780833A2DC00EB6054 /* GLSLifeView.m */;
+		name = "GLSLifeView.m: 156";
+		rLen = 0;
+		rLoc = 2247;
+		rType = 0;
+		vrLen = 1011;
+		vrLoc = 2735;
+	};
+	358377930F32C22B00E148BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2CC78770833A2DC00EB6054 /* GLSLifeView.h */;
+		name = "GLSLifeView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 362;
+		vrLoc = 0;
+	};
+	358377BD0F32C3E200E148BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2CC7A9708350C5A00EB6054 /* GLSLifeSaverView.m */;
+		name = "GLSLifeSaverView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 930;
+	};
+	3583781B0F32CACF00E148BC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2CC7A9608350C5A00EB6054 /* GLSLifeSaverView.h */;
+		name = "GLSLifeSaverView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 307;
+		vrLoc = 0;
+	};
+	35C1D2B30F33F34A0053BA7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* GLSLife_Prefix.pch */;
+		name = "GLSLife_Prefix.pch: 8";
+		rLen = 0;
+		rLoc = 145;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	35C1D31B0F33F7B40053BA7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2CC78770833A2DC00EB6054 /* GLSLifeView.h */;
+		name = "GLSLifeView.h: 6";
+		rLen = 0;
+		rLoc = 133;
+		rType = 0;
+		vrLen = 362;
+		vrLoc = 0;
+	};
+	35C1D3F80F3409550053BA7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2CC78780833A2DC00EB6054 /* GLSLifeView.m */;
+		name = "GLSLifeView.m: 34";
+		rLen = 0;
+		rLoc = 627;
+		rType = 0;
+		vrLen = 1344;
+		vrLoc = 2700;
+	};
+	35C1D3F90F3409550053BA7C /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = C2CC7A7108350BBD00EB6054 /* GLSLife saver-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/hortont/Desktop/GLSLife/GLSLife saver-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	35C1D40D0F340B220053BA7C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2CC7A9708350C5A00EB6054 /* GLSLifeSaverView.m */;
+		name = "GLSLifeSaverView.m: 16";
+		rLen = 0;
+		rLoc = 252;
+		rType = 0;
+		vrLen = 560;
+		vrLoc = 231;
+	};
+	35C9B6CA0F33E6E2000752EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 252;
+		vrLoc = 0;
+	};
+	35C9B6DC0F33E79B000752EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 35C9B6DD0F33E79B000752EC /* ogl3.cpp */;
+		name = "ogl3.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1114;
+		vrLoc = 2545;
+	};
+	35C9B6DD0F33E79B000752EC /* ogl3.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = ogl3.cpp;
+		path = /Users/hortont/Downloads/glutglsl2_2.0/ogl3.cpp;
+		sourceTree = "<absolute>";
+	};
+	35C9B6E00F33E79B000752EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 35C9B6E10F33E79B000752EC /* ogl3.cpp */;
+		name = "ogl3.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1114;
+		vrLoc = 2545;
+	};
+	35C9B6E10F33E79B000752EC /* ogl3.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = ogl3.cpp;
+		path = /Users/hortont/Downloads/glutglsl2_2.0/ogl3.cpp;
+		sourceTree = "<absolute>";
+	};
+	35C9B72C0F33EB26000752EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 35C9B72D0F33EB26000752EC /* NSResponder.h */;
+		name = "NSResponder.h: 11";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 1804;
+		vrLoc = 0;
+	};
+	35C9B72D0F33EB26000752EC /* NSResponder.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSResponder.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSResponder.h;
+		sourceTree = "<absolute>";
+	};
+	35C9B7390F33EB26000752EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 35C9B73A0F33EB26000752EC /* NSResponder.h */;
+		name = "NSResponder.h: 11";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 1804;
+		vrLoc = 0;
+	};
+	35C9B73A0F33EB26000752EC /* NSResponder.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSResponder.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSResponder.h;
+		sourceTree = "<absolute>";
+	};
+	35C9B7F50F33F125000752EC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* GLSLife_Prefix.pch */;
+		name = "GLSLife_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 145;
+		vrLoc = 0;
+	};
+	35CE15520F340BF7009B0CDA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2CC7A9708350C5A00EB6054 /* GLSLifeSaverView.m */;
+		name = "GLSLifeSaverView.m: 16";
+		rLen = 0;
+		rLoc = 252;
+		rType = 0;
+		vrLen = 560;
+		vrLoc = 231;
+	};
+	8D1107260486CEB800E47090 /* GLSLife */ = {
+		activeExec = 0;
+		executables = (
+			358377640F32C13200E148BC /* GLSLife */,
+		);
+	};
+	C2CC78770833A2DC00EB6054 /* GLSLifeView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 765}}";
+			sepNavSelRange = "{133, 0}";
+			sepNavVisRange = "{0, 362}";
+		};
+	};
+	C2CC78780833A2DC00EB6054 /* GLSLifeView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1324, 3668}}";
+			sepNavSelRange = "{2723, 0}";
+			sepNavVisRange = "{2594, 518}";
+		};
+	};
+	C2CC7A6F08350BBD00EB6054 /* GLSLife saver */ = {
+		activeExec = 0;
+	};
+	C2CC7A9608350C5A00EB6054 /* GLSLifeSaverView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 765}}";
+			sepNavSelRange = "{164, 0}";
+			sepNavVisRange = "{0, 307}";
+		};
+	};
+	C2CC7A9708350C5A00EB6054 /* GLSLifeSaverView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1117, 910}}";
+			sepNavSelRange = "{252, 0}";
+			sepNavVisRange = "{231, 560}";
+		};
+	};
+}

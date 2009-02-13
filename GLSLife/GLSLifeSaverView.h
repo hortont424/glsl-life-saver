@@ -14,8 +14,19 @@
 
 @interface GLSLifeSaverView : ScreenSaverView
 {
+	IBOutlet NSWindow *configureSheet;
+	IBOutlet NSSlider *fpsSlider;
+	IBOutlet NSPopUpButton *backgroundSelector;
+	IBOutlet NSButton *rectangleMutationBox;
+	IBOutlet NSButton *triangleMutationBox;
+	IBOutlet NSButton *gliderMutationBox;
+	IBOutlet NSColorWell *fromWell;
+	IBOutlet NSColorWell *toWell;
+	
 	GLSLifeView *lifeView;
 }
 
+- (void)ok:sender;
+- (void)cancel:sender;
 
 @end

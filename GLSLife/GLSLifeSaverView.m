@@ -62,7 +62,33 @@
 
 - (BOOL)hasConfigureSheet
 {
-    return NO;
+	return YES;
+}
+
+- (NSWindow*)configureSheet
+{
+    if(!configureSheet)
+	{
+		[NSBundle loadNibNamed:@"Screensaver" owner:self];
+	}
+	
+	NSLog(@"configureSheet : %@", configureSheet);
+	
+	return configureSheet;
+}
+
+- (void)ok:sender
+{
+	[NSApp endSheet:configureSheet];
+	
+	[[NSColorPanel sharedColorPanel] orderOut:nil];
+}
+
+- (void)cancel:sender
+{
+	[NSApp endSheet:configureSheet];
+	
+	[[NSColorPanel sharedColorPanel] orderOut:nil];
 }
 
 @end

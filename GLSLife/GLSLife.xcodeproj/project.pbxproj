@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		354CAA2C0F4555BC000790D0 /* Screensaver.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354CAA2B0F4555BC000790D0 /* Screensaver.xib */; };
+		354CAA540F455D56000790D0 /* Screensaver.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354CAA2B0F4555BC000790D0 /* Screensaver.xib */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -43,6 +45,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* GLSLife_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSLife_Prefix.pch; sourceTree = "<group>"; };
+		354CAA2B0F4555BC000790D0 /* Screensaver.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Screensaver.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* GLSLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLSLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CC78770833A2DC00EB6054 /* GLSLifeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSLifeView.h; sourceTree = "<group>"; };
@@ -146,6 +149,7 @@
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				354CAA2B0F4555BC000790D0 /* Screensaver.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -223,6 +227,7 @@
 			files = (
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				354CAA2C0F4555BC000790D0 /* Screensaver.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				354CAA540F455D56000790D0 /* Screensaver.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
